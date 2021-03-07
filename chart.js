@@ -102,7 +102,7 @@ function buildCharts(sample) {
     ];
          
         // 9. Create the layout for the bar chart. 
-        var barLayout = {
+        var barLayout = {width:350, height: 370, margin: { t: 95, b: 85},
         title: "Top 10 Baterial Species",
         xaxis: {title:"Sample Values"},
         yaxis: {title: "ID's"}
